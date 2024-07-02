@@ -9,7 +9,4 @@ Path example `LPCWSTR path = L"C:\\Users\\user\\Downloads";`
 `#include <aclapi.h>` is installed by default in windows
 
 
-
-
-
 The developer assumes no responsibility for any damage or issues arising from the use of this tool. Use at your own risk.
