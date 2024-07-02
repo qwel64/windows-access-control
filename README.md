@@ -3,7 +3,10 @@ A lightweight Windows utility for advanced directory access management. Easily r
 
 Specify the paths to apply_restriction.cpp and remove_restriction.cpp  
 Set path `LPCWSTR path = L"C:\\Path";`  
-Path example `LPCWSTR path = L"C:\\Users\\user\\Downloads";`
+Path example `LPCWSTR path = L"C:\\Users\\user\\Downloads";`  
+
+ Compile command in g++ for apply_restriction.cpp`g++ -municode apply_restriction.cpp -o apply_restriction.exe -laclui -ladvapi32`  
+ Compile command in g++ for remove_restriction.cpp`g++ -municode remove_restriction.cpp -o remove_restriction.exe -laclui -ladvapi32`
 
 `#include<windows.h>`
 `#include <aclapi.h>` is installed by default in windows
